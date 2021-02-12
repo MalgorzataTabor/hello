@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>sayhello</servlet-name>
+        // obiekt naszego serwletu
+        <servlet-class>pl.sda.java.jsp.sevlet.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sayhello</servlet-name>
+        <url-pattern>/sayhello</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+
+
+        <servlet-name>dodaj</servlet-name>
+        <servlet-class>pl.sda.java.jsp.servlet.Dodaj</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dodaj</servlet-name>
+        <url-pattern>/dodaj</url-pattern>
+    </servlet-mapping>
+</web-app>
